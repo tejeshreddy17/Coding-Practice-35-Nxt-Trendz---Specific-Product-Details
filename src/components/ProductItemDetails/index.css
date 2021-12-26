@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.product-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+}
+.selected-products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.product-image-style {
+  width: 450px;
+  margin-right: 25px;
+  border-radius: 15px;
+}
+.similar-products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 0px;
+}
+.product-item-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 6px;
+  width: 55px;
+}
